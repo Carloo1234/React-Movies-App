@@ -1,16 +1,42 @@
-# React + Vite
+# Movie App - React Movie Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie application built with **React** and the **TMDB API**. This project allows users to browse popular movies, search for specific titles, and manage their personal favorites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Previews
 
-## React Compiler
+### Home Page
+Check out the popular movies.
+![Home Page](image_previews/home_page.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Search Feature
+Search whatever movie you want to find.
+![Search Feature](image_previews/search_feature.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### Favorite Feature
+Add movies to favorite. This uses browsers localStorage to store favorited movies.
+![Favorite Feature](image_previews/favorite_feature.png)
+
+---
+
+### Favorites Page
+A page to view all your favorited movies.
+![Favorites Page](image_previews/favorites_page.png)
+
+---
+
+## Features
+* **Live TMDB Data:** Fetches real-time movie data using REST API.
+* **Dynamic Search:** Instant search results with error handling.
+* **Responsive Grid:** Fully responsive layout for mobile, tablet, and desktop
+* **Error Boundaries:** Graceful handling of API and network failures.
+
+##  Tech Stack
+* **Frontend:** React (Vite)
+* **Styling:** CSS
+* **API:** TMDB (The Movie Database)
